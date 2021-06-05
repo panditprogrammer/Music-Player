@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player In javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <!-- The Music Player -->
+    </header>
+    <div class="main">
+        <div class="header">
+            <h3>Music Player</h3>
+            <strong>song by P S.</strong>
+        </div>
+
+        <div class="album_img">
+            <img src="img/bg_album.jpg" alt="album_Image" srcset="" id="bg_album">
+        </div>
+
+       <div class="vol">
+        <img src="img/speakers.png" alt="volume" id="volume_spk">
+        <input type="range" name="volume" id="volume" min="0" max="100" value="50">
+       </div>
+        <div class="control">
+            <img src="img/previous-track.png" alt="" srcset="" id="previous">
+            <img src="img/play-button.png" alt="" srcset="" id="play_pause">
+            <img src="img/next-track-button.png" alt="" srcset="" id="next">
+            <!-- <img src="pause.png" alt="" srcset=""> -->
+        </div>
+        <audio src="music/rap.mp3"></audio>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
